@@ -3,9 +3,9 @@ import 'package:flutter_sec_1/assets_image.dart';
 import 'package:flutter_sec_1/images.dart';
 import 'package:flutter_sec_1/listview.dart';
 import 'package:flutter_sec_1/login.dart';
+import 'package:flutter_sec_1/multi_selection.dart';
 import 'package:flutter_sec_1/row_column.dart';
 import 'package:flutter_sec_1/single_selection.dart';
-import 'package:flutter_sec_1/singleselection.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Singleselectiondemo(),
+      home: MultipleSeletionDemo(),
     );
   }
 }
