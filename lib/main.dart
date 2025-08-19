@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_sec_1/assets_image.dart';
+import 'package:flutter_sec_1/bottombar.dart';
 import 'package:flutter_sec_1/gridview.dart';
 import 'package:flutter_sec_1/images.dart';
 import 'package:flutter_sec_1/listview.dart';
@@ -40,7 +41,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: GridViewDemo(),
+      home: RowColumn(),
     );
   }
 }
