@@ -17,11 +17,11 @@ class TabBarDemo extends StatelessWidget {
           bottom: TabBar(
               labelColor: Colors.white,
               unselectedLabelColor: Colors.white70,
-              indicatorColor: Colors.white,
+              indicatorColor: Colors.black,
               tabs: [
-            Text("Home"),
-            Text("Profile"),
-            Text("Setting"),
+                Tab(icon: Icon(Icons.home,color: Colors.white,), text: "Home",),
+                Tab(icon: Icon(Icons.person,color: Colors.white,), text: "Profile",),
+                Tab(icon: Icon(Icons.settings,color: Colors.white,), text: "Settings",),
           ]),
           actions: [
             Icon(Icons.insert_emoticon_sharp),
