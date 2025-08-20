@@ -17,7 +17,7 @@ class TabBarDemo extends StatelessWidget {
           bottom: TabBar(
               labelColor: Colors.white,
               unselectedLabelColor: Colors.white70,
-              indicatorColor: Colors.black,
+              indicatorColor: Colors.white,
               tabs: [
             Text("Home"),
             Text("Profile"),
