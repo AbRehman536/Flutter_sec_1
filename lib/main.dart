@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_sec_1/assets_image.dart';
 import 'package:flutter_sec_1/bottom_sheet.dart';
 import 'package:flutter_sec_1/bottombar.dart';
+import 'package:flutter_sec_1/date_time_picker.dart';
 import 'package:flutter_sec_1/dialogbox.dart';
 import 'package:flutter_sec_1/gridview.dart';
 import 'package:flutter_sec_1/images.dart';
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: BottomSheetView(),
+      home: DateTimePickerDemo(),
     );
   }
 }
