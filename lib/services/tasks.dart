@@ -3,7 +3,7 @@ import 'package:flutter_sec_1/models/tasks.dart';
 
 class TaskServices{
 
-  //create task
+  //create tasks
   Future createTask(TaskModel model) async {
     return await FirebaseFirestore.instance
         .collection("TaskCollection")
